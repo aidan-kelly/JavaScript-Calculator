@@ -17,7 +17,7 @@ function addButtonListener(){
                 command_string = result;
 
 
-            }else if(ourChar === "Backspace"){
+            }else if(ourChar === "←"){
                 command_string = command_string.slice(0, -1);
                 document.getElementById("result").textContent = command_string;
 
