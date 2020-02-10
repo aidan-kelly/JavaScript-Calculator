@@ -1,18 +1,14 @@
 @media only screen and (min-width : 700px){    
     html, body{
-
         height: 100%;
         width: 100%;
-
     }
 }
 
 @media only screen and (min-width : 700px) and (orientation : landscape) {    
     html, body{
-
         height: 100%;
         width: 600px;
-
     }
 }
 

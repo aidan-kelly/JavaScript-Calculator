@@ -16,7 +16,8 @@ function addButtonListener(){
 
                 //execute the command string
                 try{
-                    let result = eval(command_string);
+                    let result = eval(command_string).toString();
+                    console.log(typeof result);
                     document.getElementById("result").textContent = `${command_string} = ${result}`;
                     command_string = result;
 
